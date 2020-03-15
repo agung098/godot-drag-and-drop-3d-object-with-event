@@ -1,0 +1,16 @@
+[gd_resource type="Environment" load_steps=2 format=2]
+
+[sub_resource type="PanoramaSky" id=1]
+
+[resource]
+background_mode = 2
+background_sky = SubResource( 1 )
+background_energy = 2.18
+ambient_light_color = Color( 1, 1, 1, 1 )
+ambient_light_energy = 0.65
+ambient_light_sky_contribution = 0.1
+tonemap_mode = 2
+ssao_enabled = true
+ssao_light_affect = 0.78
+ssao_blur = 1
+dof_blur_far_distance = 3.22
